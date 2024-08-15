@@ -4,3 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.querySelector('button').addEventListener('click', (event) => {
+    event.stopPropagation();
+});
+
